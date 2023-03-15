@@ -23,4 +23,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: vulnerability-report
-        path: ./**/*_vulnerabilities.txt
+        path: ./**/*_vulnerabilities.pdf
