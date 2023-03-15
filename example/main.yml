@@ -20,7 +20,7 @@ jobs:
         engine: 'text-davinci-002'  # Replace with the desired engine identifier
 
     - name: Upload vulnerability report
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: vulnerability-report
         path: ./**/*_vulnerabilities.txt
