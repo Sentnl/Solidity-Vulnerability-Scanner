@@ -17,7 +17,7 @@ jobs:
       uses: Sentnl/solidity-vulnerability-scanner@main
       with:
         openai_api_key: ${{ secrets.OPENAI_API_KEY }}
-        engine: 'text-davinci-002'  # Replace with the desired engine identifier
+        engine: 'gpt-4'  # Replace with the desired engine identifier
 
     - name: Upload vulnerability report
       uses: actions/upload-artifact@v3
